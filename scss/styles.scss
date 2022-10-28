@@ -1,0 +1,21 @@
+$bg-main: #ccc;
+$bg-section: #333;
+$title-color: #fff;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-main;
+}
+
+.b-refator {
+  background-color: $bg-section;
+  padding: 30px;
+  text-align: center;
+
+  h1 {
+    font-size: 35px;
+    color: $title-color;
+  }
+}
