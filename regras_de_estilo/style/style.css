@@ -14,5 +14,11 @@ div p, main p {
 main .c-text--red {
   color: red;
 }
+main li {
+  color: purple;
+}
+main ol > li {
+  color: blue;
+}
 
 /*# sourceMappingURL=style.css.map */
