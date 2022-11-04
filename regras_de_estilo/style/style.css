@@ -73,4 +73,9 @@ main a:hover {
   color: red;
 }
 
+.c-title-2, .c-title-1 {
+  background: orange;
+  border-bottom: dotted 2px blue;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -68,3 +68,13 @@ main
 
     &:hover 
       color: red 
+
+%base-title-style 
+  background: orange
+  border-bottom: dotted 2px blue
+
+.c-title-1 
+  @extend  %base-title-style
+
+.c-title-2 
+   @extend  %base-title-style
