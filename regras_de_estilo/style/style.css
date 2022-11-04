@@ -20,5 +20,26 @@ main li {
 main ol > li {
   color: blue;
 }
+main a {
+  color: green;
+  border: solid 1px green;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  width: 150px;
+}
+main a:hover {
+  color: #fff;
+  background: green;
+}
+
+.container__content {
+  color: red;
+}
+.container__content p {
+  color: currentColor;
+}
 
 /*# sourceMappingURL=style.css.map */
