@@ -4,6 +4,10 @@
 
 .c-text {
   color: #123;
+  background: blue;
+}
+.c-text span {
+  color: red;
 }
 
 /*# sourceMappingURL=css.css.map */
