@@ -1,12 +1,14 @@
-.c-title {
+h1 {
+  border: solid 1px #222;
   color: #123;
 }
 
-.c-text {
+p {
   color: #123;
   background: blue;
 }
-.c-text span {
+p span {
+  border: solid 1px #991;
   color: red;
 }
 
