@@ -6,6 +6,7 @@ h1 {
 p {
   color: #123;
   background: blue;
+  padding: 20px;
 }
 p span {
   border: solid 1px #991;
