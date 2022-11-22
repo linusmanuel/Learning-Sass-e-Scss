@@ -1,47 +1,18 @@
-.c-text--especial, .c-title {
-  background-color: yellow;
-  border: solid 3px red;
-  color: css-color(20);
-  padding: 10px;
-}
-.c-text--especial:hover, .c-title:hover {
-  border-color: blue;
-}
+/* Error: @function rules may not contain declarations.
+ *    ,
+ * 15 |     border: 1px solid red
+ *    |     ^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   sass\_function.sass 15:5  @import
+ *   sass\main.sass 5:9        root stylesheet */
 
-.c-text {
-  border: solid 5px red;
-  font-size: 22px;
-  background: #222;
-  color: #fff;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: @function rules may not contain declarations.\a    \2577 \a 15 \2502      border: 1px solid red\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\_function.sass 15:5  @import\a   sass\\main.sass 5:9        root stylesheet";
 }
-.c-text--small {
-  padding-block: 10px;
-  padding-inline: 10px;
-}
-.c-text--medium {
-  padding-block: 15px;
-  padding-inline: 15px;
-  background-color: #fff;
-  color: #235;
-}
-.c-text--large {
-  padding-block: 20px;
-  padding-inline: 20px;
-  background-color: #ccc;
-  color: #333;
-}
-.c-text--biggest {
-  border: solid 5px blue;
-  padding-block: 25px;
-  padding-inline: 25px;
-  background-color: orange;
-  color: #333;
-}
-
-.b-hero {
-  background-color: #ccc;
-  color: #333;
-  width: 640px;
-}
-
-/*# sourceMappingURL=style.css.map */
