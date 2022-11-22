@@ -30,15 +30,21 @@
 .c-text--medium {
   padding-block: 15px;
   padding-inline: 15px;
+  background-color: #fff;
+  color: #235;
 }
 .c-text--large {
   padding-block: 20px;
   padding-inline: 20px;
+  background-color: #ccc;
+  color: #333;
 }
 .c-text--biggest {
   border: solid 5px blue;
   padding-block: 25px;
   padding-inline: 25px;
+  background-color: orange;
+  color: #333;
 }
 
 /*# sourceMappingURL=style.css.map */
