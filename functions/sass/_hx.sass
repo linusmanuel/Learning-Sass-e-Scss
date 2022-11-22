@@ -1,5 +1,14 @@
+%especial
+  background-color: yellow
+  border: solid 3px red
+  color: red
+  padding: 10px
+
+  &:hover
+    border-color: blue
+
 .c-title
-  @include especial
+  @extend %especial
 
 .c-text
   @include custom-border(solid, red, 5px)
@@ -8,7 +17,7 @@
   color: #fff
 
   &--especial
-    @include especial
+    @extend %especial
     @mixin color
 
   &--small
