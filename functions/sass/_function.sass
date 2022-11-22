@@ -1,0 +1,9 @@
+@function css-color($size)
+  $color: #222
+
+  @if $size > 10
+    $color: blue
+  @else
+    $color: orange
+
+  @return $color

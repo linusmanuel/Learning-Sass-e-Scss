@@ -1,7 +1,7 @@
 .c-text--especial, .c-title {
   background-color: yellow;
   border: solid 3px red;
-  color: red;
+  color: css-color(20);
   padding: 10px;
 }
 .c-text--especial:hover, .c-title:hover {
