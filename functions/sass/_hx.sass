@@ -2,6 +2,22 @@
   @include especial
 
 .c-text
+  font-size: 22px
+  background: #222
+  color: #fff
+
   &--especial
     @include especial
-@mixin color
+    @mixin color
+
+  &--small
+    @include padding(10px, 10px)
+
+  &--medium
+    @include padding(15px, 15px)
+
+  &--large
+    @include padding(20px, 20px)
+
+  &--biggest
+    @include padding(25px, 25px)

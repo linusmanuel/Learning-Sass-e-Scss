@@ -8,6 +8,11 @@
   border-color: blue;
 }
 
+.c-text {
+  font-size: 22px;
+  background: #222;
+  color: #fff;
+}
 .c-text--especial {
   background-color: yellow;
   border: solid 3px red;
@@ -16,6 +21,22 @@
 }
 .c-text--especial:hover {
   border-color: blue;
+}
+.c-text--small {
+  padding-block: 10px;
+  padding-inline: 10px;
+}
+.c-text--medium {
+  padding-block: 15px;
+  padding-inline: 15px;
+}
+.c-text--large {
+  padding-block: 20px;
+  padding-inline: 20px;
+}
+.c-text--biggest {
+  padding-block: 25px;
+  padding-inline: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
