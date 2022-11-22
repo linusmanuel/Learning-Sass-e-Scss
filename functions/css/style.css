@@ -9,6 +9,7 @@
 }
 
 .c-text {
+  border: solid 5px red;
   font-size: 22px;
   background: #222;
   color: #fff;
@@ -35,6 +36,7 @@
   padding-inline: 20px;
 }
 .c-text--biggest {
+  border: solid 5px blue;
   padding-block: 25px;
   padding-inline: 25px;
 }

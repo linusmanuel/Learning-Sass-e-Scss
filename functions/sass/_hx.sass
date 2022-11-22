@@ -2,6 +2,7 @@
   @include especial
 
 .c-text
+  @include custom-border(solid, red, 5px)
   font-size: 22px
   background: #222
   color: #fff
@@ -20,4 +21,5 @@
     @include padding(20px, 20px)
 
   &--biggest
+    @include custom-border(solid, blue, 5px)
     @include padding(25px, 25px)
