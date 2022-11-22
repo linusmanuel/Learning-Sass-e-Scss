@@ -1,0 +1,21 @@
+.c-title {
+  background-color: yellow;
+  border: solid 3px red;
+  color: red;
+  padding: 10px;
+}
+.c-title:hover {
+  border-color: blue;
+}
+
+.c-text--especial {
+  background-color: yellow;
+  border: solid 3px red;
+  color: red;
+  padding: 10px;
+}
+.c-text--especial:hover {
+  border-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
